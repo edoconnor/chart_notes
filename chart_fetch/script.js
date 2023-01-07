@@ -1,9 +1,36 @@
+function updateChart() {
+  async function fetchData() {
+    const url = "financials.json";
+    const response = await fetch(url);
+    const datapoints = await response.json();
+    // console.log(datapoints);
+    return datapoints;
+  }
+  fetchData().then((datapoints) => {
+    const month = datapoints.financialreport[0].financials.map(function (
+      index
+    ) {
+      return index.date;
+    });
+    const revenue = datapoints.financialreport[0].financials.map(function (
+      index
+    ) {
+      return index.revenue;
+    });
+    const companyname = datapoints.financialreport.map(function (index) {
+      return index.companyname;
+    });
+    myChart.config.data.datasets[0].label = companyname[0];
+    myChart.config.data.labels = month;
+    myChart.config.data.datasets[0].data = revenue;
+    myChart.update();
+  });
+}
+
 const data = {
-  //   labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+  labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
   datasets: [
     {
-      label: "Weekly Sales",
-      //   data: [18, 12, 6, 9, 12, 3, 9],
       backgroundColor: [
         "rgba(255, 26, 104, 0.2)",
         "rgba(54, 162, 235, 0.2)",
@@ -42,31 +69,3 @@ const config = {
 
 // render init block
 const myChart = new Chart(document.getElementById("myChart"), config);
-
-function updateChart() {
-  async function fetchData() {
-    const url = "financials.json";
-    const response = await fetch(url);
-    const datapoints = await response.json();
-    return datapoints;
-  }
-  fetchData().then((datapoints) => {
-    const month = datapoints.financialreport[0].financials.map(
-      (month, index) => {
-        return month.date;
-      }
-    );
-    const value = datapoints.financialreport[0].financials.map(
-      (value, index) => {
-        return value.revenue;
-      }
-    );
-
-    console.log(value);
-    console.log(month);
-
-    myChart.config.data.labels = month;
-    myChart.config.data.datasets[0].data = value;
-    myChart.update();
-  });
-}

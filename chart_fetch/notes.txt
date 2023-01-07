@@ -1,0 +1,2 @@
+//test api connection during dev:
+<button onclick="updateChart()">Fetch</button>
