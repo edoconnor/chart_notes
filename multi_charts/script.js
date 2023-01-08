@@ -2,17 +2,40 @@ const data = {
   labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
   datasets: [
     {
-      label: "# of Votes",
+      label: "close",
       data: [12, 19, 3, 5, 2, 3],
       borderWidth: 1,
     },
   ],
 };
 
+const data2 = {
+  labels: ["Green", "Purple", "Orange", "Red", "Blue", "Yellow"],
+  datasets: [
+    {
+      label: "close",
+      data: [5, 2, 3, 9, 11, 17],
+      borderWidth: 1,
+    },
+  ],
+};
+
+const data3 = {
+    labels: ["Green", "Purple", "Orange", "Red", "Blue", "Yellow"],
+    datasets: [
+      {
+        label: "close",
+        data: [19, 11, 3, 7, 10, 19],
+        borderWidth: 1,
+      },
+    ],
+  };
+
 const config = {
-  type: "bar",
-  data,
+  type: "line",
+  data: data2,
   options: {
+    responsive: true,
     scales: {
       y: {
         beginAtZero: true,
@@ -23,8 +46,9 @@ const config = {
 
 const config2 = {
   type: "line",
-  data,
+  data: data3,
   options: {
+    responsive: true,
     scales: {
       y: {
         beginAtZero: true,
@@ -33,28 +57,34 @@ const config2 = {
   },
 };
 
-const datapie = {
-  labels: ["Red", "Blue", "Yellow"],
-  datasets: [
-    {
-      label: "# of Votes",
-      data: [9, 10, 13],
-      borderWidth: 1,
+const config3 = {
+    type: "line",
+    data,
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+        },
+      },
     },
-  ],
-};
+  };
 
-const configpie = {
-  type: "pie",
-  data: datapie,
-  options: {},
-};
+const mmm_chart = new Chart(document.getElementById("mmm_chart"), config);
 
-const pieChart = new Chart(
-  document.getElementById("pieChart"),
-  configpie
-);
+const lineChart = new Chart(document.getElementById("axp_chart"), config2);
 
-const lineChart = new Chart(document.getElementById("lineChart"), config2);
-const myChart = new Chart(document.getElementById("myChart"), config);
+const amgn_chart = new Chart(document.getElementById("amgn_chart"), config3);
+
+const aapl_chart = new Chart(document.getElementById("aapl_chart"), config3);
+
+const ba_chart = new Chart(document.getElementById("ba_chart"), config);
+
+const cat_chart = new Chart(document.getElementById("cat_chart"), config2);
+
+const cvx_chart = new Chart(document.getElementById("cvx_chart"), config2);
+
+const csco_chart = new Chart(document.getElementById("csco_chart"), config);
+
+const ko_chart = new Chart(document.getElementById("ko_chart"), config3);
 

@@ -1,20 +1,7 @@
-/* .container {
-  max-width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 3rem;
-} */
-/* button {
-  margin-left: 2rem;
-  margin-top: 1rem;
-} */
-.chartBox {
-  width: 400px;
-  margin-top: 2rem;
+.container {
+  margin-top: 3rem;
 }
-.pieBox {
-  width: 350px;
-  margin-top: 4rem;
-  margin-left: auto;
-  margin-right: auto;
+.chartBox {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
