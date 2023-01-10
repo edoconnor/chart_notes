@@ -1,0 +1,752 @@
+[
+    {
+      "symbol": "MMM",
+      "date": "01/06",
+      "close": 126.72
+    },
+    {
+      "symbol": "MMM",
+      "date": "01/05",
+      "close": 122.96
+    },
+    {
+      "symbol": "MMM",
+      "date": "01/04",
+      "close": 125.15
+    },
+    {
+      "symbol": "MMM",
+      "date": "01/03",
+      "close": 122.47
+    },
+    {
+      "symbol": "MMM",
+      "date": "12/30",
+      "close": 119.92
+    },
+    {
+      "symbol": "AXP",
+      "date": "01/06",
+      "close": 150.17
+    },
+    {
+      "symbol": "AXP",
+      "date": "01/05",
+      "close": 146.43
+    },
+    {
+      "symbol": "AXP",
+      "date": "01/04",
+      "close": 150.54
+    },
+    {
+      "symbol": "AXP",
+      "date": "01/03",
+      "close": 147.12
+    },
+    {
+      "symbol": "AXP",
+      "date": "12/30",
+      "close": 147.75
+    },
+    {
+      "symbol": "AMGN",
+      "date": "01/06",
+      "close": 275.2
+    },
+    {
+      "symbol": "AMGN",
+      "date": "01/05",
+      "close": 266.86
+    },
+    {
+      "symbol": "AMGN",
+      "date": "01/04",
+      "close": 264.39
+    },
+    {
+      "symbol": "AMGN",
+      "date": "01/03",
+      "close": 261.65
+    },
+    {
+      "symbol": "AMGN",
+      "date": "12/30",
+      "close": 262.64
+    },
+    {
+      "symbol": "AAPL",
+      "date": "01/06",
+      "close": 129.62
+    },
+    {
+      "symbol": "AAPL",
+      "date": "01/05",
+      "close": 125.02
+    },
+    {
+      "symbol": "AAPL",
+      "date": "01/04",
+      "close": 126.36
+    },
+    {
+      "symbol": "AAPL",
+      "date": "01/03",
+      "close": 125.07
+    },
+    {
+      "symbol": "AAPL",
+      "date": "12/30",
+      "close": 129.93
+    },
+    {
+      "symbol": "BA",
+      "date": "01/06",
+      "close": 213
+    },
+    {
+      "symbol": "BA",
+      "date": "01/05",
+      "close": 204.99
+    },
+    {
+      "symbol": "BA",
+      "date": "01/04",
+      "close": 203.64
+    },
+    {
+      "symbol": "BA",
+      "date": "01/03",
+      "close": 195.39
+    },
+    {
+      "symbol": "BA",
+      "date": "12/30",
+      "close": 190.49
+    },
+    {
+      "symbol": "CAT",
+      "date": "01/06",
+      "close": 248.86
+    },
+    {
+      "symbol": "CAT",
+      "date": "01/05",
+      "close": 240.28
+    },
+    {
+      "symbol": "CAT",
+      "date": "01/04",
+      "close": 241.36
+    },
+    {
+      "symbol": "CAT",
+      "date": "01/03",
+      "close": 238.88
+    },
+    {
+      "symbol": "CAT",
+      "date": "12/30",
+      "close": 239.56
+    },
+    {
+      "symbol": "CVX",
+      "date": "01/06",
+      "close": 176.56
+    },
+    {
+      "symbol": "CVX",
+      "date": "01/05",
+      "close": 175.24
+    },
+    {
+      "symbol": "CVX",
+      "date": "01/04",
+      "close": 172.14
+    },
+    {
+      "symbol": "CVX",
+      "date": "01/03",
+      "close": 173.99
+    },
+    {
+      "symbol": "CVX",
+      "date": "12/30",
+      "close": 179.49
+    },
+    {
+      "symbol": "CSCO",
+      "date": "01/06",
+      "close": 48.32
+    },
+    {
+      "symbol": "CSCO",
+      "date": "01/05",
+      "close": 46.88
+    },
+    {
+      "symbol": "CSCO",
+      "date": "01/04",
+      "close": 47.55
+    },
+    {
+      "symbol": "CSCO",
+      "date": "01/03",
+      "close": 47.94
+    },
+    {
+      "symbol": "CSCO",
+      "date": "12/30",
+      "close": 47.64
+    },
+    {
+      "symbol": "KO",
+      "date": "01/06",
+      "close": 63.4
+    },
+    {
+      "symbol": "KO",
+      "date": "01/05",
+      "close": 62.2
+    },
+    {
+      "symbol": "KO",
+      "date": "01/04",
+      "close": 62.92
+    },
+    {
+      "symbol": "KO",
+      "date": "01/03",
+      "close": 62.95
+    },
+    {
+      "symbol": "KO",
+      "date": "12/30",
+      "close": 63.61
+    },
+    {
+      "symbol": "DIS",
+      "date": "01/06",
+      "close": 93.92
+    },
+    {
+      "symbol": "DIS",
+      "date": "01/05",
+      "close": 91.92
+    },
+    {
+      "symbol": "DIS",
+      "date": "01/04",
+      "close": 91.98
+    },
+    {
+      "symbol": "DIS",
+      "date": "01/03",
+      "close": 88.97
+    },
+    {
+      "symbol": "DIS",
+      "date": "12/30",
+      "close": 86.88
+    },
+    {
+      "symbol": "DOW",
+      "date": "01/06",
+      "close": 55.02
+    },
+    {
+      "symbol": "DOW",
+      "date": "01/05",
+      "close": 52.91
+    },
+    {
+      "symbol": "DOW",
+      "date": "01/04",
+      "close": 52.33
+    },
+    {
+      "symbol": "DOW",
+      "date": "01/03",
+      "close": 51.04
+    },
+    {
+      "symbol": "DOW",
+      "date": "12/30",
+      "close": 50.39
+    },
+    {
+      "symbol": "GS",
+      "date": "01/06",
+      "close": 348.08
+    },
+    {
+      "symbol": "GS",
+      "date": "01/05",
+      "close": 343.76
+    },
+    {
+      "symbol": "GS",
+      "date": "01/04",
+      "close": 347.7
+    },
+    {
+      "symbol": "GS",
+      "date": "01/03",
+      "close": 346.22
+    },
+    {
+      "symbol": "GS",
+      "date": "12/30",
+      "close": 343.38
+    },
+    {
+      "symbol": "HD",
+      "date": "01/06",
+      "close": 317.53
+    },
+    {
+      "symbol": "HD",
+      "date": "01/05",
+      "close": 315.47
+    },
+    {
+      "symbol": "HD",
+      "date": "01/04",
+      "close": 319.73
+    },
+    {
+      "symbol": "HD",
+      "date": "01/03",
+      "close": 315.91
+    },
+    {
+      "symbol": "HD",
+      "date": "12/30",
+      "close": 315.86
+    },
+    {
+      "symbol": "HON",
+      "date": "01/06",
+      "close": 210.27
+    },
+    {
+      "symbol": "HON",
+      "date": "01/05",
+      "close": 204.47
+    },
+    {
+      "symbol": "HON",
+      "date": "01/04",
+      "close": 210.04
+    },
+    {
+      "symbol": "HON",
+      "date": "01/03",
+      "close": 214.3
+    },
+    {
+      "symbol": "HON",
+      "date": "12/30",
+      "close": 214.3
+    },
+    {
+      "symbol": "IBM",
+      "date": "01/06",
+      "close": 143.7
+    },
+    {
+      "symbol": "IBM",
+      "date": "01/05",
+      "close": 141.11
+    },
+    {
+      "symbol": "IBM",
+      "date": "01/04",
+      "close": 142.6
+    },
+    {
+      "symbol": "IBM",
+      "date": "01/03",
+      "close": 141.55
+    },
+    {
+      "symbol": "IBM",
+      "date": "12/30",
+      "close": 140.89
+    },
+    {
+      "symbol": "INTC",
+      "date": "01/06",
+      "close": 28.73
+    },
+    {
+      "symbol": "INTC",
+      "date": "01/05",
+      "close": 27.56
+    },
+    {
+      "symbol": "INTC",
+      "date": "01/04",
+      "close": 27.68
+    },
+    {
+      "symbol": "INTC",
+      "date": "01/03",
+      "close": 26.73
+    },
+    {
+      "symbol": "INTC",
+      "date": "12/30",
+      "close": 26.43
+    },
+    {
+      "symbol": "JNJ",
+      "date": "01/06",
+      "close": 180.25
+    },
+    {
+      "symbol": "JNJ",
+      "date": "01/05",
+      "close": 178.8
+    },
+    {
+      "symbol": "JNJ",
+      "date": "01/04",
+      "close": 180.13
+    },
+    {
+      "symbol": "JNJ",
+      "date": "01/03",
+      "close": 178.19
+    },
+    {
+      "symbol": "JNJ",
+      "date": "12/30",
+      "close": 176.65
+    },
+    {
+      "symbol": "JPM",
+      "date": "01/06",
+      "close": 137.94
+    },
+    {
+      "symbol": "JPM",
+      "date": "01/05",
+      "close": 135.35
+    },
+    {
+      "symbol": "JPM",
+      "date": "01/04",
+      "close": 136.38
+    },
+    {
+      "symbol": "JPM",
+      "date": "01/03",
+      "close": 135.12
+    },
+    {
+      "symbol": "JPM",
+      "date": "12/30",
+      "close": 134.1
+    },
+    {
+      "symbol": "MCD",
+      "date": "01/06",
+      "close": 269.47
+    },
+    {
+      "symbol": "MCD",
+      "date": "01/05",
+      "close": 262.16
+    },
+    {
+      "symbol": "MCD",
+      "date": "01/04",
+      "close": 264.39
+    },
+    {
+      "symbol": "MCD",
+      "date": "01/03",
+      "close": 264.33
+    },
+    {
+      "symbol": "MCD",
+      "date": "12/30",
+      "close": 263.53
+    },
+    {
+      "symbol": "MRK",
+      "date": "01/06",
+      "close": 114.84
+    },
+    {
+      "symbol": "MRK",
+      "date": "01/05",
+      "close": 113.64
+    },
+    {
+      "symbol": "MRK",
+      "date": "01/04",
+      "close": 112.08
+    },
+    {
+      "symbol": "MRK",
+      "date": "01/03",
+      "close": 111.14
+    },
+    {
+      "symbol": "MRK",
+      "date": "12/30",
+      "close": 110.95
+    },
+    {
+      "symbol": "MSFT",
+      "date": "01/06",
+      "close": 224.93
+    },
+    {
+      "symbol": "MSFT",
+      "date": "01/05",
+      "close": 222.31
+    },
+    {
+      "symbol": "MSFT",
+      "date": "01/04",
+      "close": 229.1
+    },
+    {
+      "symbol": "MSFT",
+      "date": "01/03",
+      "close": 239.58
+    },
+    {
+      "symbol": "MSFT",
+      "date": "12/30",
+      "close": 239.82
+    },
+    {
+      "symbol": "NKE",
+      "date": "01/06",
+      "close": 124.53
+    },
+    {
+      "symbol": "NKE",
+      "date": "01/05",
+      "close": 120.62
+    },
+    {
+      "symbol": "NKE",
+      "date": "01/04",
+      "close": 121.21
+    },
+    {
+      "symbol": "NKE",
+      "date": "01/03",
+      "close": 118.75
+    },
+    {
+      "symbol": "NKE",
+      "date": "12/30",
+      "close": 117.01
+    },
+    {
+      "symbol": "PG",
+      "date": "01/06",
+      "close": 153.92
+    },
+    {
+      "symbol": "PG",
+      "date": "01/05",
+      "close": 150.34
+    },
+    {
+      "symbol": "PG",
+      "date": "01/04",
+      "close": 152.23
+    },
+    {
+      "symbol": "PG",
+      "date": "01/03",
+      "close": 151.57
+    },
+    {
+      "symbol": "PG",
+      "date": "12/30",
+      "close": 151.56
+    },
+    {
+      "symbol": "CRM",
+      "date": "01/06",
+      "close": 140.51
+    },
+    {
+      "symbol": "CRM",
+      "date": "01/05",
+      "close": 136.34
+    },
+    {
+      "symbol": "CRM",
+      "date": "01/04",
+      "close": 139.59
+    },
+    {
+      "symbol": "CRM",
+      "date": "01/03",
+      "close": 134.78
+    },
+    {
+      "symbol": "CRM",
+      "date": "12/30",
+      "close": 132.59
+    },
+    {
+      "symbol": "TRV",
+      "date": "01/06",
+      "close": 193.87
+    },
+    {
+      "symbol": "TRV",
+      "date": "01/05",
+      "close": 187.55
+    },
+    {
+      "symbol": "TRV",
+      "date": "01/04",
+      "close": 187.23
+    },
+    {
+      "symbol": "TRV",
+      "date": "01/03",
+      "close": 187.12
+    },
+    {
+      "symbol": "TRV",
+      "date": "12/30",
+      "close": 187.49
+    },
+    {
+      "symbol": "UNH",
+      "date": "01/06",
+      "close": 490
+    },
+    {
+      "symbol": "UNH",
+      "date": "01/05",
+      "close": 489.96
+    },
+    {
+      "symbol": "UNH",
+      "date": "01/04",
+      "close": 504.5
+    },
+    {
+      "symbol": "UNH",
+      "date": "01/03",
+      "close": 518.64
+    },
+    {
+      "symbol": "UNH",
+      "date": "12/30",
+      "close": 530.18
+    },
+    {
+      "symbol": "VZ",
+      "date": "01/06",
+      "close": 42.19
+    },
+    {
+      "symbol": "VZ",
+      "date": "01/05",
+      "close": 41.7
+    },
+    {
+      "symbol": "VZ",
+      "date": "01/04",
+      "close": 41.13
+    },
+    {
+      "symbol": "VZ",
+      "date": "01/03",
+      "close": 40.12
+    },
+    {
+      "symbol": "VZ",
+      "date": "12/30",
+      "close": 39.4
+    },
+    {
+      "symbol": "V",
+      "date": "01/06",
+      "close": 217.75
+    },
+    {
+      "symbol": "V",
+      "date": "01/05",
+      "close": 211.11
+    },
+    {
+      "symbol": "V",
+      "date": "01/04",
+      "close": 212.61
+    },
+    {
+      "symbol": "V",
+      "date": "01/03",
+      "close": 207.39
+    },
+    {
+      "symbol": "V",
+      "date": "12/30",
+      "close": 207.76
+    },
+    {
+      "symbol": "WBA",
+      "date": "01/06",
+      "close": 36.61
+    },
+    {
+      "symbol": "WBA",
+      "date": "01/05",
+      "close": 35.19
+    },
+    {
+      "symbol": "WBA",
+      "date": "01/04",
+      "close": 37.49
+    },
+    {
+      "symbol": "WBA",
+      "date": "01/03",
+      "close": 37.19
+    },
+    {
+      "symbol": "WBA",
+      "date": "12/30",
+      "close": 37.36
+    },
+    {
+      "symbol": "WMT",
+      "date": "01/06",
+      "close": 146.78
+    },
+    {
+      "symbol": "WMT",
+      "date": "01/05",
+      "close": 143.27
+    },
+    {
+      "symbol": "WMT",
+      "date": "01/04",
+      "close": 143.76
+    },
+    {
+      "symbol": "WMT",
+      "date": "01/03",
+      "close": 143.6
+    },
+    {
+      "symbol": "WMT",
+      "date": "12/30",
+      "close": 141.79
+    }
+  ]

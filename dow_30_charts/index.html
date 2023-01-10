@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body onload="fetchData()">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="mmm_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="axp_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="amgn_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="aapl_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="ba_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="cat_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="cvx_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="csco_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="ko_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="dis_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="dow_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="gs_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="hd_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="hon_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="ibm_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="intc_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="jnj_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="jpm_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="mcd_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="mrk_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="msft_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="nke_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="pg_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="crm_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="trv_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="unh_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="vz_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="v_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="wba_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="wmt_chart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
